@@ -1,0 +1,131 @@
+.container {
+  width: 100%;
+  margin: auto;
+  background: #f8f8f9;
+  margin-bottom: 5rem;
+}
+.innercontainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.textContainer h3 {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+.textContainer h4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.textContainer p {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.myMap{
+  width: 70%;
+}
+
+@media(max-width:1024px){
+  .container {
+    width: 100%;
+    margin: auto;
+    background: #f8f8f9;
+    margin-bottom: 5rem;
+  }
+  .innercontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textContainer h3 {
+    font-size: 30px;
+  }
+  .textContainer h4 {
+    font-size: 20px;
+  }
+  .myMap{
+    width: 70%;
+  }
+  .textContainer p {
+    font-size: 16px;
+  }
+}
+@media(max-width:768px){
+  .container {
+    width: 100%;
+    margin: auto;
+    background: #f8f8f9;
+    margin-bottom: 5rem;
+  }
+  .innercontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textContainer h3 {
+    font-size: 25px;
+  }
+  .textContainer h4 {
+    font-size: 14px;
+  }
+  
+  .textContainer p {
+    font-size: 12px;
+  }
+}
+@media(max-width: 480px){
+  .container {
+    width: 100%;
+    margin: auto;
+    background: #f8f8f9;
+    margin-bottom: 5rem;
+  }
+  .innercontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .textContainer h3 {
+    font-family: Lato;
+    font-size: 25px;
+
+  }
+  .textContainer h4 {
+    font-size: 16px;
+  }
+  .myMap{
+    width: 90%;
+    margin: auto;
+  }
+  .textContainer p {
+    font-size: 14px;
+  }
+
+  .textContainer {
+    text-align: left;
+    margin: 3rem 0;
+  }
+}

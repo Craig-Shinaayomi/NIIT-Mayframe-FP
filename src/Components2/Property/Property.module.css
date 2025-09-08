@@ -1,0 +1,238 @@
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.innerContainer{
+    width: 90%;
+    padding-top: 5rem;
+    margin: auto;
+}
+
+.construct{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    align-items: center;
+    gap: 3rem;
+}
+.construct2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.engine h1{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+ }
+
+ .engine p{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+ }
+
+ .engg img{
+   width: 100%;
+ }
+
+ .engine{
+   width: 50%;
+ }
+
+ .mode{
+   width: 50%;
+ }
+
+ .wom{
+   width: 50%;
+ }
+
+ .rod{
+   width: 50%;
+ }
+
+ .rents{
+   width: 50%;
+ }
+
+ .real{
+   width: 50%;
+ }
+
+ .ltd{
+   width: 50%;
+ }
+
+
+.development{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 3rem;
+}
+
+
+.ltd h3{
+   font-family: Lato;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 29px;
+   letter-spacing: 0em;
+   color:  #C19D59;
+}
+
+.ltd h1{
+   font-family: Lato;
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 48px;
+   letter-spacing: 0em;
+   color: #1F1F21;
+}
+
+.ltd p{
+   font-family: Lato;
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0em;
+   color: #515151;
+}
+
+.pict{
+   display: flex;
+   gap: 20px;
+   width: 50%;
+}
+
+.cran img{
+   width: 100%;
+}
+
+.engrr img{
+   width: 100%;
+}
+
+@media screen and (max-width: 950px){
+   .engine h1{
+      font-size: 30px;
+   }
+  
+   .engine p{
+      font-size: 18px;
+   }
+
+  .ltd h3{
+   font-size: 20px;
+}
+
+.ltd h1{
+   font-size: 30px;
+}
+
+.ltd p{
+   font-size: 18px;
+}
+
+.construct{
+   gap: 2rem;
+}
+.construct2{
+   gap: 2rem;
+}
+
+.development{
+   gap: 2rem;
+}
+
+.engg{
+   width: 45%;
+ }
+
+}
+
+@media screen and (max-width: 768px){
+   .engine h1{
+      font-size: 30px;
+      line-height: 35px;
+   }
+  
+   .engine p{
+      font-size: 16px;
+   }
+
+  
+   .ltd h3{
+      font-size: 20px;
+   }
+
+   .ltd h1{
+      font-size: 30px;
+      line-height: 35px;
+   }
+
+   .ltd p{
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 660px){
+   .construct{
+      gap: 2rem;
+      flex-direction: column;
+   }
+   .construct2{
+      gap: 2rem;
+      flex-direction: column-reverse;
+   }
+ 
+   .development{
+     flex-direction: column;
+      gap: 2rem;
+      width: 100%;
+   }
+
+   .engg img{
+      width: 100%;
+    }
+   
+    .engine{
+      width: 100%;
+    }
+   
+   
+    .ltd{
+      width: 100%;
+    }
+
+    .pict{
+      width: 100%;
+    }
+
+    .cran{
+      width: 100%;
+   }
+   
+   .engrr{
+      width: 100%;
+   }
+
+   .engg{
+      width: 100%;
+    }
+}
+
